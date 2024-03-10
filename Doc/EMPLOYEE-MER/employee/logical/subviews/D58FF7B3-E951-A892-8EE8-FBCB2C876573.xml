@@ -59,6 +59,11 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="457" y="182" width="170" height="111"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="E062BA76-13DE-6D98-8B05-5BEA637D0147" otype="Note" vid="ACB66AD3-7994-B106-2391-A6B36F7527F9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="365" y="57" width="114" height="65"/>
+<comment>Diego Polanco, Oscar muñoz, Luis Rojas, Andrés Chamorro</comment>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F0146C43-7FB9-65E7-ECB2-0FAFC6397931" otype="Entity" vid="657324BD-AF2D-7586-705C-5891BC112DBD">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="577" y="845" width="170" height="53"/>
