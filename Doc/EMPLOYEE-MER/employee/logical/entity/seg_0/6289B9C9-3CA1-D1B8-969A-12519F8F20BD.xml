@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6289B9C9-3CA1-D1B8-969A-12519F8F20BD" name="ECONOMICAL_SECTOR">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:27:49 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="FD0A4756-EE7A-3533-0D98-474A512FA391">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:28:32 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E8B85FFB-120A-5CA2-FAFE-E1495319A574" name="ECONOMICAL_SECTOR PK">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:28:33 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD0A4756-EE7A-3533-0D98-474A512FA391</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A612BB96-B70E-C4E2-996F-7C66F8B5EDF6" name="CAPACITATION_TOPIC">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:31:43 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="9BA78CE3-6B07-3C88-0A2B-852F6B5DDD59">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:32:00 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="B16919BA-4006-028D-F603-C9BBB4A750E3">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:59:23 UTC</createdTime>
+<generatorID>B4CB0AD0-B259-ABC0-7AD3-414B82321733</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<referedAttribute>F0DB69BA-2E2C-CF83-C81D-D3D5B634C859</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3A51DA15-E14B-21CA-B176-C7E6902355F4" name="CAPACITATION_TOPIC PK">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:32:07 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9BA78CE3-6B07-3C88-0A2B-852F6B5DDD59</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

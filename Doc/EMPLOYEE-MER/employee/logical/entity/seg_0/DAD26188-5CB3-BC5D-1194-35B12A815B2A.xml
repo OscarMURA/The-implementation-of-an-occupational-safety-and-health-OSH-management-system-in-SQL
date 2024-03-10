@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DAD26188-5CB3-BC5D-1194-35B12A815B2A" name="CONTRACT">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:32:54 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="contractNumber" id="49EDB7CE-93EE-CCF7-F956-29C27381847C">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:33:01 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="typeContract" id="E91AD2DD-E3DF-BD63-E275-09ED859617C9">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:33:14 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="charge" id="B1208697-A49D-E8ED-9B2F-9B915E23B3BD">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:33:21 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary" id="7D001BCF-005A-D8EA-4F80-824CC886DED4">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:33:27 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="startDate" id="39BAB7BF-5D47-1173-73B2-5740E0E36283">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:34:00 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dateFinishContract" id="D43EDCD4-BA88-E361-7B22-08D90CFC0608">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:34:12 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIT" id="098CA23E-A5AE-D6AF-44BD-68D094E784B0">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 15:00:11 UTC</createdTime>
+<generatorID>40F78F00-AF56-5525-8B01-43277477637E</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<referedAttribute>10F5FF0C-6057-FFE3-DE00-26F78660DA8F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D663294C-B1DC-BA6D-F6BA-36F01EAEB267" name="CONTRACT PK">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:33:13 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49EDB7CE-93EE-CCF7-F956-29C27381847C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

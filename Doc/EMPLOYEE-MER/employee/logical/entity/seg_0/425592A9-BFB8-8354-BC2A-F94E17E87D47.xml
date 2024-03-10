@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="425592A9-BFB8-8354-BC2A-F94E17E87D47" name="LABORAL_ACCIDENT">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:44:01 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="2D5F2D94-7B41-8261-0D0C-1D94F3508FC0">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:44:17 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="eventDate" id="CF586179-E01F-F395-1C01-279E07AE130B">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:44:22 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="eventHour" id="3D2CB60D-DBC1-2B31-23B0-E7AC5EED7704">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:44:31 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="place" id="A05EF38F-3BB2-D5F7-2807-4CA4066AC30D">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:44:41 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="0BFBD348-B315-A14C-DFC3-D917774692DF">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:44:51 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="933B6CA1-A22A-0B6C-3997-FCFAC2C7364B">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 15:04:17 UTC</createdTime>
+<generatorID>F1D9F0F6-EF2A-EE20-1C36-0BD7A729A124</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<referedAttribute>4BA75E43-742E-87C3-665E-03F41D4BA386</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7BA56903-02F0-73E3-2842-1FEDE6447869" name="LABORAL_ACCIDENT PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-03-10 18:21:34 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D5F2D94-7B41-8261-0D0C-1D94F3508FC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

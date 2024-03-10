@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D7EC7EA-FCFB-EABC-A2D9-55846F1E7A7C" name="COMPANY">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:28:48 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NIT" id="10F5FF0C-6057-FFE3-DE00-26F78660DA8F">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:28:57 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="legalName" id="F19A2877-3C87-F43C-50D6-92FAD69580D1">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:29:07 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="3E2E79A3-F191-FF5D-1936-9A3F576438A1">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:29:12 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="757FB920-81BC-7846-B9A1-83D18FE94E25">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:29:35 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="542DF97D-FEE2-4A81-AD51-6572F73A80B6">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:29:43 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="BD1FDB03-55DC-72CE-1346-6A12D82BCBB6">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:29:50 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EPS" id="87699B0F-B429-1AAE-CD8A-07A58DAF8018">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:29:59 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ARL" id="461063BB-6F4A-45C4-AD4A-7DDE844A807B">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:30:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name1" id="31869E5B-E6E5-4724-B0F9-3440F76768AA">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:57:16 UTC</createdTime>
+<generatorID>574684D4-29A2-4230-CD5F-D84DB1DF3EB5</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<referedAttribute>FD0A4756-EE7A-3533-0D98-474A512FA391</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B675331-B26F-6A49-9955-D3FF7D72C44D" name="COMPANY PK">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-03-10 14:28:59 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>10F5FF0C-6057-FFE3-DE00-26F78660DA8F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
