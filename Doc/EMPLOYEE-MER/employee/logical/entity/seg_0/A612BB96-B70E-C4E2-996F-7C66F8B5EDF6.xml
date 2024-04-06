@@ -25,15 +25,13 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="B16919BA-4006-028D-F603-C9BBB4A750E3">
+<Attribute name="code" id="8C9C3F45-6007-9298-154A-4574DFECB840">
 <createdBy>Oscar Muñoz</createdBy>
-<createdTime>2024-03-10 14:59:23 UTC</createdTime>
-<generatorID>B4CB0AD0-B259-ABC0-7AD3-414B82321733</generatorID>
+<createdTime>2024-04-04 14:25:42 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
 <engineerTo>
 <item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
 </engineerTo>
-<referedAttribute>F0DB69BA-2E2C-CF83-C81D-D3D5B634C859</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -48,7 +46,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9BA78CE3-6B07-3C88-0A2B-852F6B5DDD59</attributeRef>
+<attributeRef>8C9C3F45-6007-9298-154A-4574DFECB840</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

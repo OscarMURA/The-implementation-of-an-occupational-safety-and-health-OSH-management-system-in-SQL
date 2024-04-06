@@ -15,16 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="A3BE8C0A-C37A-F9A1-A666-A73BC6F3A713">
-<createdBy>DELL</createdBy>
-<createdTime>2024-03-10 23:32:27 UTC</createdTime>
-<ownerDesignName>employee</ownerDesignName>
-<engineerTo>
-<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="name" id="BE1A655B-CCEA-F50E-3539-B424E2CECC36">
 <createdBy>Oscar Muñoz</createdBy>
 <createdTime>2024-03-10 14:41:30 UTC</createdTime>
@@ -75,7 +65,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="sadsadasdasdas" id="D610F279-8B3C-E4C3-9CA1-C4BE36FCD0D5">
+<Attribute name="id" id="D610F279-8B3C-E4C3-9CA1-C4BE36FCD0D5">
 <createdBy>Oscar Muñoz</createdBy>
 <createdTime>2024-03-10 15:02:57 UTC</createdTime>
 <generatorID>0098795B-861E-21C3-E018-39459B4A1E5C</generatorID>
@@ -87,19 +77,28 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="code" id="8E034373-4459-C812-5381-13020A88CCF6">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-04-04 14:41:11 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0372DB94-CD72-4E83-2701-082E686E301D" name="EMERGENCY_CONTACT PK">
-<createdBy>DELL</createdBy>
-<createdTime>2024-03-10 23:31:16 UTC</createdTime>
+<identifier id="F9B3BC49-C428-2A95-C3AB-407B1AA0E7D6" name="EMERGENCY_CONTACT PK">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-04-04 14:41:13 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
 <engineerTo>
 <item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D610F279-8B3C-E4C3-9CA1-C4BE36FCD0D5</attributeRef>
-<attributeRef>A3BE8C0A-C37A-F9A1-A666-A73BC6F3A713</attributeRef>
+<attributeRef>8E034373-4459-C812-5381-13020A88CCF6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

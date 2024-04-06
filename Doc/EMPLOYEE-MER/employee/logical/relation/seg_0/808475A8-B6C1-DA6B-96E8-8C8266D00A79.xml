@@ -12,7 +12,7 @@
 <nameOnTarget>has</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>A8063255-D57F-B85A-8DAB-9065D8C08011</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>97443A29-53C0-1AC3-0898-5A5FFBCE85B6</targetEntity>

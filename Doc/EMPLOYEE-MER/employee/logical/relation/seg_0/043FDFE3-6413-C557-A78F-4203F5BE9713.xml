@@ -8,11 +8,11 @@
 </engineerTo>
 <sourcePk>38F51CA4-EBEC-6923-29EA-7162C5846206</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>has</nameOnSource>
-<nameOnTarget>assigned to</nameOnTarget>
+<nameOnSource>assigned to</nameOnSource>
+<nameOnTarget>has</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>F0146C43-7FB9-65E7-ECB2-0FAFC6397931</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>97443A29-53C0-1AC3-0898-5A5FFBCE85B6</targetEntity>

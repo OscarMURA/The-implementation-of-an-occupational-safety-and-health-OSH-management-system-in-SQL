@@ -47,29 +47,23 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="C06A2A20-C64C-B07B-BF1D-7AA5E6FB14ED">
+<Attribute name="date" id="E975798E-9420-F770-02C7-F762F2B01F06">
 <createdBy>Oscar Muñoz</createdBy>
-<createdTime>2024-03-10 15:01:51 UTC</createdTime>
-<generatorID>808475A8-B6C1-DA6B-96E8-8C8266D00A79</generatorID>
+<createdTime>2024-04-04 14:28:01 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
 <engineerTo>
 <item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>D1C996F4-04B2-73CA-8DA8-3D02D84EACB1</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name1" id="11A56A95-6A59-742E-0022-493ECA17C701">
+<Attribute name="code" id="46240E96-3598-7524-B0E0-C018A2079404">
 <createdBy>Oscar Muñoz</createdBy>
-<createdTime>2024-03-10 15:02:16 UTC</createdTime>
-<generatorID>043FDFE3-6413-C557-A78F-4203F5BE9713</generatorID>
+<createdTime>2024-04-04 14:28:37 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
 <engineerTo>
 <item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>555A4A56-2568-0AE4-04C4-3F8D64C7C5E2</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -84,7 +78,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A12F8BBE-EB57-1DCE-D25F-5198E82B7F11</attributeRef>
+<attributeRef>46240E96-3598-7524-B0E0-C018A2079404</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

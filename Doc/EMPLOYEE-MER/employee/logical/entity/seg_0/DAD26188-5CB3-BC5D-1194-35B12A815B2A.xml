@@ -88,6 +88,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id" id="CAA36B10-D086-1EB0-A323-629903D65A36">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-04-04 14:36:48 UTC</createdTime>
+<generatorID>E39222E5-4B4E-6386-3264-84F4F92B2CD9</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<referedAttribute>70F24CCA-1C59-2B4A-B6C6-F59AB67716C4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D663294C-B1DC-BA6D-F6BA-36F01EAEB267" name="CONTRACT PK">

@@ -12,7 +12,7 @@
 <nameOnTarget>assigned to</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>AD2783C0-FFB0-6704-50F1-58CF03EDDDA1</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>A612BB96-B70E-C4E2-996F-7C66F8B5EDF6</targetEntity>
