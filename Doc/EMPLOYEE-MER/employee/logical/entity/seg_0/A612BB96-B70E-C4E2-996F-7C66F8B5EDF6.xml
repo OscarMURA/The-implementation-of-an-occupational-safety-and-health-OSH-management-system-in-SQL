@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="name" id="9BA78CE3-6B07-3C88-0A2B-852F6B5DDD59">
+<Attribute name="code" id="8C9C3F45-6007-9298-154A-4574DFECB840">
 <createdBy>Oscar Muñoz</createdBy>
-<createdTime>2024-03-10 14:32:00 UTC</createdTime>
+<createdTime>2024-04-04 14:25:42 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
 <engineerTo>
 <item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="code" id="8C9C3F45-6007-9298-154A-4574DFECB840">
+<Attribute name="name" id="9BA78CE3-6B07-3C88-0A2B-852F6B5DDD59">
 <createdBy>Oscar Muñoz</createdBy>
-<createdTime>2024-04-04 14:25:42 UTC</createdTime>
+<createdTime>2024-03-10 14:32:00 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
 <engineerTo>
 <item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>

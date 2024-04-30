@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7A00122-367B-5837-65FD-27D98259872F" name="CONTRACT">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>DAD26188-5CB3-BC5D-1194-35B12A815B2A</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="contractNumber" id="B27F5018-CC89-F23F-065D-33669BD21116">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>49EDB7CE-93EE-CCF7-F956-29C27381847C</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="typeContract" id="AD383FD5-C77A-C2F3-82DD-B68C7CD4EC59">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>E91AD2DD-E3DF-BD63-E275-09ED859617C9</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="charge" id="3633989F-0699-CB86-EB22-58FF4601C9DC">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>B1208697-A49D-E8ED-9B2F-9B915E23B3BD</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="B6E75A9D-A9DC-906C-324C-B5F3B6D96713">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>7D001BCF-005A-D8EA-4F80-824CC886DED4</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="startDate" id="572F9755-6322-46D9-7D49-B71C90EF3E73">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>39BAB7BF-5D47-1173-73B2-5740E0E36283</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dateFinishContract" id="7A2F1524-0A13-0D44-D4EB-D7D0B5EED144">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>D43EDCD4-BA88-E361-7B22-08D90CFC0608</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="companyNit" id="B4D716B1-6AE7-987C-31F1-027A8DB1383D">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>098CA23E-A5AE-D6AF-44BD-68D094E784B0</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA766A53-4652-07FC-8C38-64AF087B8CD3" referredColumn="FC28595A-CCF8-427D-EA4F-8969B2484D97"/>
+</associations>
+</Column>
+<Column name="employeeId" id="1287E462-B0C2-7537-66B8-FBA65BFD3DE8">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>B79ADAD7-10BA-4455-5D26-87CCC764434D</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="318BE4AC-B7AB-25E1-9F2D-AC6118ED5ACC" referredColumn="68E546F2-18CB-E7CC-CA32-638B630C1E52"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5185E3BF-E339-6AB4-D55B-603DB130E2E6" name="CONTRACT_PK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>D663294C-B1DC-BA6D-F6BA-36F01EAEB267</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B27F5018-CC89-F23F-065D-33669BD21116"/>
+<colUsage columnID="B4D716B1-6AE7-987C-31F1-027A8DB1383D"/>
+<colUsage columnID="1287E462-B0C2-7537-66B8-FBA65BFD3DE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2917CB24-8E14-E4E6-FD17-1DE970548DE9" name="CONTRACT_COMPANY_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>40F78F00-AF56-5525-8B01-43277477637E</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4D716B1-6AE7-987C-31F1-027A8DB1383D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C3482A9-E9DB-981C-CCAA-9A0BDDACC770" name="CONTRACT_EMPLOYEE_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>E39222E5-4B4E-6386-3264-84F4F92B2CD9</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1287E462-B0C2-7537-66B8-FBA65BFD3DE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

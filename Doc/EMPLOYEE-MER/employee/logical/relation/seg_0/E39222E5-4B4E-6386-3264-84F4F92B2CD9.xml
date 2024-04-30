@@ -12,8 +12,8 @@
 <nameOnSource>assigned to</nameOnSource>
 <nameOnTarget>has</nameOnTarget>
 <optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>DAD26188-5CB3-BC5D-1194-35B12A815B2A</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
 <targetEntity>7D9ADFAB-DC21-155A-BF45-45367D5C0C65</targetEntity>

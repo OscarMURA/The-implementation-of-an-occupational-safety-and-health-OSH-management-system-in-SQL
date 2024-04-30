@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="645AE0AF-2F10-ABA9-86F6-777959F61F8D" containerWithKeyObject="03D2D49F-01A3-4196-4170-E78B20804EC0" localFKIndex="72D74762-C25F-A138-1092-7F80237B09C4" name="ASSISTENCE_CAPACITATION_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>DCFA2744-8664-7F88-F6AB-798ECCF5D80C</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<referredTableLongName>CAPACITATION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8AEE4975-DA82-FB23-DC2B-0F7C0B9F2E49</referredTableID>
+<keyObject>5B2A1D00-18C8-B90F-9D37-47F272F44FE4</keyObject>
+<referredKeyID>5B2A1D00-18C8-B90F-9D37-47F272F44FE4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

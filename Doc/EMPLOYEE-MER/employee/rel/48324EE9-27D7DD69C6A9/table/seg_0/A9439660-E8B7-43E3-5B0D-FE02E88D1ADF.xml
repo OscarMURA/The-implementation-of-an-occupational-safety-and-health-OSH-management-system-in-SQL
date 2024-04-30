@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9439660-E8B7-43E3-5B0D-FE02E88D1ADF" name="REGISTER_ALLERGIES">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<ordsAlias>relation_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="typeAllegiesName" id="5E9F5781-681E-D8EE-FEE8-E2F86AAEE698">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="025B1D4A-0A8F-850B-3300-4380EC379218" referredColumn="DC9D30C4-0E75-F3E9-D6B1-9432D6FCDD66"/>
+</associations>
+</Column>
+<Column name="healthStatusRegisterCode" id="3A2C3D43-60A3-1BE6-5AC6-D211745C8632">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5D4992A-FB0C-EA12-9529-17722CB9476B" referredColumn="C097CA89-66C1-B246-4C4B-AA7E104DA836"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="008635B6-68D5-23B9-25AD-B5CA650013F6" name="REGISTER_ALLERGIES">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E9F5781-681E-D8EE-FEE8-E2F86AAEE698"/>
+<colUsage columnID="3A2C3D43-60A3-1BE6-5AC6-D211745C8632"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF373FCC-FE6C-B0AB-0583-095465CC2487" name="typeAllegiesNameUnique">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:59:35 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A2C3D43-60A3-1BE6-5AC6-D211745C8632"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2869C69D-6EF4-2197-72B4-4E29C5F30B90" name="REGISTER_ALLERGIES_TYPE_ALLEGIES_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>043FDFE3-6413-C557-A78F-4203F5BE9713</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E9F5781-681E-D8EE-FEE8-E2F86AAEE698"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47B12783-7B1F-A215-A4B0-A722CA1E1E4A" name="REGISTER_ALLERGIES_HEALTH_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>043FDFE3-6413-C557-A78F-4203F5BE9713</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A2C3D43-60A3-1BE6-5AC6-D211745C8632"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

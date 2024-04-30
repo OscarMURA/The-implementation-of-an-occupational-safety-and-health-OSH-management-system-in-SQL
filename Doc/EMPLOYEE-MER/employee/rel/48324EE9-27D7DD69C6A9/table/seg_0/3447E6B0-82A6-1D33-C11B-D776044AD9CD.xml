@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3447E6B0-82A6-1D33-C11B-D776044AD9CD" name="CAPACITATION_TOPIC">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>A612BB96-B70E-C4E2-996F-7C66F8B5EDF6</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="code" id="39F944C5-8306-BC20-E0C1-069F60C136DE">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>8C9C3F45-6007-9298-154A-4574DFECB840</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="DF154B20-A6F2-900E-6BD7-425A846C7240">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>9BA78CE3-6B07-3C88-0A2B-852F6B5DDD59</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="693D86A0-1679-111C-CEFC-D3DB1AC66BC8" name="CAPACITATION_TOPIC_PK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>3A51DA15-E14B-21CA-B176-C7E6902355F4</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39F944C5-8306-BC20-E0C1-069F60C136DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F765BFA9-B7D1-4C1B-935E-483BF170416A" name="LABORAL_ACCIDENT">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>425592A9-BFB8-8354-BC2A-F94E17E87D47</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3CA786F1-8721-01D5-21EC-A8F5E06D164A">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>2D5F2D94-7B41-8261-0D0C-1D94F3508FC0</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="eventDate" id="F758917C-7C74-74D7-B31E-B2FC76A8E834">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>CF586179-E01F-F395-1C01-279E07AE130B</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="eventHour" id="86028B17-1CE2-D556-653A-DDE6AF118E2F">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>3D2CB60D-DBC1-2B31-23B0-E7AC5EED7704</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="place" id="335E678D-0309-DF9D-26F5-0F7F8DD54C06">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>A05EF38F-3BB2-D5F7-2807-4CA4066AC30D</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="BD099263-E72D-8C9F-8EFD-D032E8375390">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>0BFBD348-B315-A14C-DFC3-D917774692DF</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_ACCIDENT_name" id="E6B2879B-EEB5-3A76-B932-383517E875B5">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>933B6CA1-A22A-0B6C-3997-FCFAC2C7364B</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="226FF3C4-D191-284E-49E2-D6E21E0A038C" referredColumn="528E3F8F-F152-DBB2-2221-0D9C370A0E8E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="865AE279-A5D1-D698-6BAA-C1AD6ED27EFC" name="LABORAL_ACCIDENT_PK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>5403749F-69BE-BE04-0059-2F619112DDDE</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CA786F1-8721-01D5-21EC-A8F5E06D164A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED79D585-49A9-23C3-2C5D-8CF0F7741AE0" name="LABORAL_ACCIDENT_TYPE_ACCIDENT_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>F1D9F0F6-EF2A-EE20-1C36-0BD7A729A124</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6B2879B-EEB5-3A76-B932-383517E875B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

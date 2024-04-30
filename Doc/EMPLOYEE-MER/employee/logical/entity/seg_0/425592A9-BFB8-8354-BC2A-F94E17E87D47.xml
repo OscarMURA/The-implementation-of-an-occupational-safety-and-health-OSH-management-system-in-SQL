@@ -78,4 +78,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5403749F-69BE-BE04-0059-2F619112DDDE" name="LABORAL_ACCIDENT PK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:12:55 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D5F2D94-7B41-8261-0D0C-1D94F3508FC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

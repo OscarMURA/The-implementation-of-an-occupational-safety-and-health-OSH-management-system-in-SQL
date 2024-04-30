@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FF383A1-C5D4-FF19-FB79-59E98623240B" name="REGISTER_ACCIDENT">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<ordsAlias>relation_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_id" id="27B0405E-7B35-5E4F-0295-5DF551A0D8AD">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA1B1C3B-E2DB-C6C7-E9E4-5F0C64FC593D" referredColumn="68E546F2-18CB-E7CC-CA32-638B630C1E52"/>
+</associations>
+</Column>
+<Column name="LABORAL_ACCIDENT_id" id="5E7C70D1-D4DA-54F4-FCD8-825D0AE26542">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E93D596C-C2E5-1C32-916C-701D08F7738D" referredColumn="3CA786F1-8721-01D5-21EC-A8F5E06D164A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31DDD03F-F4C3-1FAD-C3CF-E4958754FC4C" name="REGISTER_ACCIDENT">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27B0405E-7B35-5E4F-0295-5DF551A0D8AD"/>
+<colUsage columnID="5E7C70D1-D4DA-54F4-FCD8-825D0AE26542"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B397D2AC-4AF4-02C5-7231-8808059CD170" name="REGISTER_ACCIDENT_EMPLOYEE_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>D37D4DC7-B3C5-05DD-8CCC-4510944554EF</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27B0405E-7B35-5E4F-0295-5DF551A0D8AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C921C455-3301-84A5-0CD6-61DACD761DCB" name="REGISTER_ACCIDENT_LABORAL_ACCIDENT_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>D37D4DC7-B3C5-05DD-8CCC-4510944554EF</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E7C70D1-D4DA-54F4-FCD8-825D0AE26542"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

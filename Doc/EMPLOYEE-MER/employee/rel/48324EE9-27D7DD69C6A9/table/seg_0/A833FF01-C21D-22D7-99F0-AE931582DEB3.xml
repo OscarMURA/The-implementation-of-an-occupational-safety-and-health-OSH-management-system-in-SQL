@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A833FF01-C21D-22D7-99F0-AE931582DEB3" name="TYPE_DISEASE">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>A8063255-D57F-B85A-8DAB-9065D8C08011</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="BED03738-99DD-A54A-B86F-7AB34D80520A">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>D1C996F4-04B2-73CA-8DA8-3D02D84EACB1</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="689EE1B9-706E-83AB-8070-DDB689C55324" name="TYPE_DISEASE_PK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>F6DC79B7-6E4F-59C5-1DF1-9FABBCBFD9A6</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BED03738-99DD-A54A-B86F-7AB34D80520A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

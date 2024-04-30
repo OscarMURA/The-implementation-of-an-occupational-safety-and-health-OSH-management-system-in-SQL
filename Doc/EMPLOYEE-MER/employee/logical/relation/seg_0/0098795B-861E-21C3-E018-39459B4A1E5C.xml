@@ -10,9 +10,9 @@
 <identifying>false</identifying>
 <nameOnSource>assigned to</nameOnSource>
 <nameOnTarget>has</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>7D9ADFAB-DC21-155A-BF45-45367D5C0C65</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>00806276-BCDE-D5E1-C147-84DF37F41026</targetEntity>

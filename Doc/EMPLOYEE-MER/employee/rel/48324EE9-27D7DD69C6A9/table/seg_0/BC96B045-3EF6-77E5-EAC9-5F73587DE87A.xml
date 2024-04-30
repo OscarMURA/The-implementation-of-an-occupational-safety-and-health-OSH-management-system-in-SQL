@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC96B045-3EF6-77E5-EAC9-5F73587DE87A" name="REGISTER_TOPIC">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<ordsAlias>relation_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="capacitationId" id="35171AEF-9ED3-EAA6-F8D3-8B4C2F5AC9CF">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0B1A4D7-B47C-CAAE-C485-8313E0BD26E0" referredColumn="8029E9CF-7A8F-3403-BFF4-5A2BFAC4E288"/>
+</associations>
+</Column>
+<Column name="capacitationTopicCode" id="430E3C81-59F8-90E4-8EBE-092D2F05ADDF">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C867036-3CCC-31D0-349C-4E340CF3819A" referredColumn="39F944C5-8306-BC20-E0C1-069F60C136DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1374BC59-E994-B788-AF15-BE43DAC92455" name="REGISTER_TOPIC">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35171AEF-9ED3-EAA6-F8D3-8B4C2F5AC9CF"/>
+<colUsage columnID="430E3C81-59F8-90E4-8EBE-092D2F05ADDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EA17F6A-B0F2-16F5-8408-3C4CCFD0CBAE" name="REGISTER_TOPIC_CAPACITATION_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>B4CB0AD0-B259-ABC0-7AD3-414B82321733</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35171AEF-9ED3-EAA6-F8D3-8B4C2F5AC9CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCDE696D-621E-D1BA-BBB7-ACB350845259" name="REGISTER_TOPIC_CAPACITATION_TOPIC_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>B4CB0AD0-B259-ABC0-7AD3-414B82321733</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="430E3C81-59F8-90E4-8EBE-092D2F05ADDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

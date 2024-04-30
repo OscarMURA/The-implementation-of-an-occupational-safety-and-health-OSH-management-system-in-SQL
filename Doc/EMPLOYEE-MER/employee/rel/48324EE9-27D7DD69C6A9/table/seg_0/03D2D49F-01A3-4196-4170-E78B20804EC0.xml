@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03D2D49F-01A3-4196-4170-E78B20804EC0" name="ASSISTENCE">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<ordsAlias>relation_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="capacitationId" id="139A0082-71CA-F848-CAB7-6C5D049E2981">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="645AE0AF-2F10-ABA9-86F6-777959F61F8D" referredColumn="8029E9CF-7A8F-3403-BFF4-5A2BFAC4E288"/>
+</associations>
+</Column>
+<Column name="employeeId" id="21D301B0-3C03-F8C1-6406-042154BB175D">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97FAD5BA-7575-FDFC-5E1E-02C599B69D0A" referredColumn="68E546F2-18CB-E7CC-CA32-638B630C1E52"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07B37FDD-1CCB-A2AD-1484-72CF6F4B6F15" name="ASSISTENCE_PK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="139A0082-71CA-F848-CAB7-6C5D049E2981"/>
+<colUsage columnID="21D301B0-3C03-F8C1-6406-042154BB175D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72D74762-C25F-A138-1092-7F80237B09C4" name="ASSISTENCE_CAPACITATION_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>DCFA2744-8664-7F88-F6AB-798ECCF5D80C</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="139A0082-71CA-F848-CAB7-6C5D049E2981"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75B87629-0D17-D19E-415C-2368C7884B57" name="ASSISTENCE_EMPLOYEE_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-04-30 14:28:08 UTC</createdTime>
+<generatorID>DCFA2744-8664-7F88-F6AB-798ECCF5D80C</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21D301B0-3C03-F8C1-6406-042154BB175D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

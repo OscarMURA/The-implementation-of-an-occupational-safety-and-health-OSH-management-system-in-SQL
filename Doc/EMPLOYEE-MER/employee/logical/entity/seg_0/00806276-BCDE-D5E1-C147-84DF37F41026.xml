@@ -15,6 +15,16 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="code" id="8E034373-4459-C812-5381-13020A88CCF6">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-04-04 14:41:11 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="name" id="BE1A655B-CCEA-F50E-3539-B424E2CECC36">
 <createdBy>Oscar Muñoz</createdBy>
 <createdTime>2024-03-10 14:41:30 UTC</createdTime>
@@ -58,28 +68,6 @@
 <Attribute name="email" id="4D287C48-FFFC-7A7C-E37C-6902C24C4E14">
 <createdBy>Oscar Muñoz</createdBy>
 <createdTime>2024-03-10 14:43:07 UTC</createdTime>
-<ownerDesignName>employee</ownerDesignName>
-<engineerTo>
-<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id" id="D610F279-8B3C-E4C3-9CA1-C4BE36FCD0D5">
-<createdBy>Oscar Muñoz</createdBy>
-<createdTime>2024-03-10 15:02:57 UTC</createdTime>
-<generatorID>0098795B-861E-21C3-E018-39459B4A1E5C</generatorID>
-<ownerDesignName>employee</ownerDesignName>
-<engineerTo>
-<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
-</engineerTo>
-<referedAttribute>70F24CCA-1C59-2B4A-B6C6-F59AB67716C4</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="code" id="8E034373-4459-C812-5381-13020A88CCF6">
-<createdBy>Oscar Muñoz</createdBy>
-<createdTime>2024-04-04 14:41:11 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
 <engineerTo>
 <item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>

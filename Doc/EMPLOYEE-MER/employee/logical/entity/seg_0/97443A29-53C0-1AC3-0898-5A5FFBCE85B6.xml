@@ -15,6 +15,16 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="code" id="46240E96-3598-7524-B0E0-C018A2079404">
+<createdBy>Oscar Muñoz</createdBy>
+<createdTime>2024-04-04 14:28:37 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="status" id="A12F8BBE-EB57-1DCE-D25F-5198E82B7F11">
 <createdBy>Oscar Muñoz</createdBy>
 <createdTime>2024-03-10 14:37:02 UTC</createdTime>
@@ -50,16 +60,6 @@
 <Attribute name="date" id="E975798E-9420-F770-02C7-F762F2B01F06">
 <createdBy>Oscar Muñoz</createdBy>
 <createdTime>2024-04-04 14:28:01 UTC</createdTime>
-<ownerDesignName>employee</ownerDesignName>
-<engineerTo>
-<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="code" id="46240E96-3598-7524-B0E0-C018A2079404">
-<createdBy>Oscar Muñoz</createdBy>
-<createdTime>2024-04-04 14:28:37 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
 <engineerTo>
 <item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
