@@ -109,10 +109,6 @@ editar el texto.</comment>
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="0" y="515" width="316" height="111"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="CD6F21D6-8203-5D5A-48A9-43F19CB0191C" otype="Table" vid="4AD8D345-1613-4B06-AA07-ADEC169C6A67">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="44" y="982" width="170" height="110"/>
-</OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D92B3AD7-C381-CBCD-5374-BAC529FFDA99" otype="Table" vid="566719C9-A748-BC53-6958-B3DEAAF01F34">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1242" y="621" width="245" height="220"/>
