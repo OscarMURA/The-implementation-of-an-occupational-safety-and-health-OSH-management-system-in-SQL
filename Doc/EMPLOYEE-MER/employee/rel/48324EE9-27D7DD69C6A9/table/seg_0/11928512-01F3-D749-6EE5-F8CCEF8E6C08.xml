@@ -13,8 +13,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>8E034373-4459-C812-5381-13020A88CCF6</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="name" id="74275B34-FE23-9A24-923D-36C90DE78A20">
@@ -22,8 +25,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>BE1A655B-CCEA-F50E-3539-B424E2CECC36</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="adress" id="7707F634-D81E-0D25-BDA2-AB5F41D0AAAF">
@@ -31,8 +37,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>DD7213F9-8C64-7A8E-AB23-825F72EFCB35</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="residenceCity" id="213711FB-5D0B-DB28-0054-9A55F59FC837">
@@ -40,8 +49,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>E8403E99-D1D4-3F6C-FF7E-B735A6935E09</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="phone" id="FCCB3B34-FAC2-1D76-850F-6F298AC619AC">
@@ -49,8 +61,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>EFA2EA4E-9ECE-A72E-07E6-9EE34591D496</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="email" id="A43C3083-FDF5-17A6-85D7-D85BCF239212">
@@ -58,8 +73,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>4D287C48-FFFC-7A7C-E37C-6902C24C4E14</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

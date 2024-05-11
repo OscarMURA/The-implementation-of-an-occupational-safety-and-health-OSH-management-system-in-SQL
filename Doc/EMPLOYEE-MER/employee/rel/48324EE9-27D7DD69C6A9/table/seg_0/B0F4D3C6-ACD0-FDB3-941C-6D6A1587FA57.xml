@@ -13,8 +13,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>555A4A56-2568-0AE4-04C4-3F8D64C7C5E2</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

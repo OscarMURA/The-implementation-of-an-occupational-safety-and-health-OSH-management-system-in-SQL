@@ -13,8 +13,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>8C9C3F45-6007-9298-154A-4574DFECB840</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="name" id="DF154B20-A6F2-900E-6BD7-425A846C7240">
@@ -22,8 +25,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>9BA78CE3-6B07-3C88-0A2B-852F6B5DDD59</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

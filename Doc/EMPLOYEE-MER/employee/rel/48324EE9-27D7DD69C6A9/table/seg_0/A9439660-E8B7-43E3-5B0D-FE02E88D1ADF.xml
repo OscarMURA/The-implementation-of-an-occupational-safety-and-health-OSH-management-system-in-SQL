@@ -12,7 +12,9 @@
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -24,7 +26,10 @@
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

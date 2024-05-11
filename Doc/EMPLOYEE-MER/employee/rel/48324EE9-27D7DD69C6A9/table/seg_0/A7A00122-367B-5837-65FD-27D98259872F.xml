@@ -13,8 +13,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>49EDB7CE-93EE-CCF7-F956-29C27381847C</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="typeContract" id="AD383FD5-C77A-C2F3-82DD-B68C7CD4EC59">
@@ -22,8 +25,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>E91AD2DD-E3DF-BD63-E275-09ED859617C9</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="charge" id="3633989F-0699-CB86-EB22-58FF4601C9DC">
@@ -31,8 +37,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>B1208697-A49D-E8ED-9B2F-9B915E23B3BD</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="salary" id="B6E75A9D-A9DC-906C-324C-B5F3B6D96713">
@@ -40,7 +49,9 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>7D001BCF-005A-D8EA-4F80-824CC886DED4</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -49,7 +60,9 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>39BAB7BF-5D47-1173-73B2-5740E0E36283</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -59,7 +72,9 @@
 <generatorID>D43EDCD4-BA88-E361-7B22-08D90CFC0608</generatorID>
 <ownerDesignName>employee</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -68,7 +83,10 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>098CA23E-A5AE-D6AF-44BD-68D094E784B0</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -81,7 +99,10 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>B79ADAD7-10BA-4455-5D26-87CCC764434D</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -100,9 +121,9 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B27F5018-CC89-F23F-065D-33669BD21116"/>
 <colUsage columnID="B4D716B1-6AE7-987C-31F1-027A8DB1383D"/>
 <colUsage columnID="1287E462-B0C2-7537-66B8-FBA65BFD3DE8"/>
+<colUsage columnID="B27F5018-CC89-F23F-065D-33669BD21116"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="2917CB24-8E14-E4E6-FD17-1DE970548DE9" name="CONTRACT_COMPANY_FK">

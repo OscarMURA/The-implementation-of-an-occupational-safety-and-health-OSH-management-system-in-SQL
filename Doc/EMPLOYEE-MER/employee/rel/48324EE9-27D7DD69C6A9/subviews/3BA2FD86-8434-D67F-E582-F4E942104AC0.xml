@@ -38,6 +38,18 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1442" y="847" width="417" height="110"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="499947A2-1C48-2D2F-66CA-ED283F6A158C" otype="Note" vid="24CD2024-CEA5-273A-3CE8-A3DD00B318A0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="290" y="977" width="95" height="40"/>
+<comment>mismo que en enfermedades
+</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="59334F00-B63F-4AF5-15EE-B72862DDEA39" otype="Note" vid="1B3CE758-0849-F531-AE5C-03F13EB9345A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="2052" y="1153" width="1" height="40"/>
+<comment>Haga clic dos veces para 
+editar el texto.</comment>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="60A1C6CE-AFAC-1C00-8C73-59F45447DED8" otype="Table" vid="29681C66-EBFE-06F9-8634-C75ADC41F082">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="407" y="799" width="357" height="146"/>
@@ -46,9 +58,32 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="952" y="837" width="399" height="145"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="77315437-C0F6-CD47-705A-9F7C7FC64C75" otype="Note" vid="875A9BAA-B049-716B-8919-27AA0868741C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1440" y="1022" width="95" height="40"/>
+<comment>Codigo con id</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="7E582CE8-21AE-C4CF-0D52-3D207021C0A1" otype="Note" vid="48ABAD18-8900-54D1-8E29-EC7B3E077337">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="854" y="906" width="95" height="40"/>
+<comment>Mejorar relacion: a muchos
+</comment>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="8AEE4975-DA82-FB23-DC2B-0F7C0B9F2E49" otype="Table" vid="B045720E-D623-3CF2-0A56-C82DF0162CBD">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="420" y="515" width="300" height="180"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="93308CDE-B032-F7AF-88D2-2A870D869B2F" otype="Note" vid="E4C6DAD6-F31C-6435-C9E5-CB5629B29F2C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1861" y="535" width="95" height="40"/>
+<comment>relacion contrato empleado y accidente</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="979496E0-6E3A-6A78-F394-E89AB19FF483" otype="Note" vid="67A7F0CD-01D5-D669-033D-55BBEC49D176">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="803" y="833" width="95" height="40"/>
+<comment>Tabla de dominio: status
+
+</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="A7A00122-367B-5837-65FD-27D98259872F" otype="Table" vid="4D401DCA-D7A6-8AA9-EF62-4713ECB7886A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>

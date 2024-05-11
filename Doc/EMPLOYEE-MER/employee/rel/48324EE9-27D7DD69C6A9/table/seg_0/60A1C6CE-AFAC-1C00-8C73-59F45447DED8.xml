@@ -13,8 +13,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>46240E96-3598-7524-B0E0-C018A2079404</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="status" id="45017BDD-416E-B420-209E-7901372B9F38">
@@ -22,8 +25,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>A12F8BBE-EB57-1DCE-D25F-5198E82B7F11</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="description" id="D7F44601-B8F8-0509-2400-5A30539E05B1">
@@ -31,7 +37,9 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>74E3FA11-A5FA-79F8-020B-AC756FEF1BEB</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -40,7 +48,10 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>6A58AC21-07A7-7932-9C07-C63A85160F6A</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -53,7 +64,9 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>E975798E-9420-F770-02C7-F762F2B01F06</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

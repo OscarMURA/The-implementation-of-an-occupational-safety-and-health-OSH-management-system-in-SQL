@@ -13,8 +13,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>F0DB69BA-2E2C-CF83-C81D-D3D5B634C859</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="name" id="58806A64-86E1-639B-1A3D-7558828B7C1D">
@@ -22,8 +25,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>9E5D089E-0E27-9BD9-0EFC-48AEEF8182E6</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="modality" id="58C851BF-7399-B0C6-B55A-27C770FD6D4D">
@@ -31,8 +37,11 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>446A32AC-7C29-09AC-B42B-A7DBA772BCA6</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="date" id="07B98C2C-1A9D-E618-2968-F2154CA9761D">
@@ -40,7 +49,9 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>50744F94-15F0-27EB-06B0-3124A1771494</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -49,7 +60,9 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>96B02AE1-F145-5023-E6A6-FDBAD2F502FD</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -58,7 +71,10 @@
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>D5214CE5-0ED6-880B-BA45-885DFF1D4AB5</generatorID>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
