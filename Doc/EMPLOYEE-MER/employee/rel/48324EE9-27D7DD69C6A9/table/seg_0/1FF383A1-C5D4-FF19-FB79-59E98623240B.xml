@@ -8,15 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="EMPLOYEE_id" id="27B0405E-7B35-5E4F-0295-5DF551A0D8AD">
-<createdBy>OscarMunoz</createdBy>
-<createdTime>2024-04-30 14:28:08 UTC</createdTime>
-<ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="LABORAL_ACCIDENT_id" id="5E7C70D1-D4DA-54F4-FCD8-825D0AE26542">
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
@@ -87,7 +78,6 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="27B0405E-7B35-5E4F-0295-5DF551A0D8AD"/>
 <colUsage columnID="5E7C70D1-D4DA-54F4-FCD8-825D0AE26542"/>
 </indexColumnUsage>
 </ind_PK_UK>
