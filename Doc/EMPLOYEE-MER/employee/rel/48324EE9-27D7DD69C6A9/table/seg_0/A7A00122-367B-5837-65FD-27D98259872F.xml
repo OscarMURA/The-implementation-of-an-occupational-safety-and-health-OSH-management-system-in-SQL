@@ -110,6 +110,21 @@
 <colAssociation fkAssociation="318BE4AC-B7AB-25E1-9F2D-AC6118ED5ACC" referredColumn="68E546F2-18CB-E7CC-CA32-638B630C1E52"/>
 </associations>
 </Column>
+<Column name="contractActivation" id="5340FDF1-1597-4F8D-9736-F3B414E542E3">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:00:25 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26485A2C-DC32-094A-F5DA-D3A025E2CFA9" referredColumn="21F47371-3A65-EC07-1C4B-6478E7DFF60A"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="5185E3BF-E339-6AB4-D55B-603DB130E2E6" name="CONTRACT_PK">
@@ -146,6 +161,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1287E462-B0C2-7537-66B8-FBA65BFD3DE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54DD860D-9948-C636-2ABE-03660214253C" name="CONTRACT_CONTRACT_ACTIVATION_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:00:25 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5340FDF1-1597-4F8D-9736-F3B414E542E3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

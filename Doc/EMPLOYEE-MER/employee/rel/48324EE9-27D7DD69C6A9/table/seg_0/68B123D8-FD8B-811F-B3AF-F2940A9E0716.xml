@@ -13,6 +13,7 @@
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
@@ -31,11 +32,23 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idHealthStatusRegister" id="82A8CDC6-8B01-D8B4-5DD2-AB6B8B0F5EEE">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 18:19:26 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="44DA7660-81C3-3350-5195-B745A63E0AE6" referredColumn="C097CA89-66C1-B246-4C4B-AA7E104DA836"/>
+<colAssociation fkAssociation="CF20297F-6AC6-2389-3CA7-A15209F5FD2B" referredColumn="C097CA89-66C1-B246-4C4B-AA7E104DA836"/>
 </associations>
 </Column>
 </columns>
@@ -73,15 +86,15 @@
 <colUsage columnID="5094D3AB-567D-6F1D-4A19-C56719090528"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="179119B5-F294-3470-0A0F-7EC618C557AA" name="REGISTER_DISEASE_HEALTH_STATUS_REGISTER_FK">
+<ind_PK_UK id="5BFAF089-04D9-7A7D-52AE-BE9C479088D2" name="REGISTER_DISEASE_HEALTH_STATUS_REGISTER_FK">
 <createdBy>OscarMunoz</createdBy>
-<createdTime>2024-04-30 14:28:08 UTC</createdTime>
-<generatorID>808475A8-B6C1-DA6B-96E8-8C8266D00A79</generatorID>
+<createdTime>2024-05-11 18:19:26 UTC</createdTime>
+<generatorID>D32A4592-3D61-B21E-7775-275A743B9CE8</generatorID>
 <ownerDesignName>employee</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A6D57C06-544F-EE7A-5519-72BB941EC052"/>
+<colUsage columnID="82A8CDC6-8B01-D8B4-5DD2-AB6B8B0F5EEE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

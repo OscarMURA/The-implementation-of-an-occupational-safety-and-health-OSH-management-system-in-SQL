@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1D86F31F-A012-A379-B72C-5AAC5077748C" containerWithKeyObject="DA4474A1-50E5-D776-B389-E44D1D0F0A49" localFKIndex="FBC42E4B-A3EF-5FEF-A6C5-CA7033E87736" name="COMPANY_ARL_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:08:11 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<referredTableLongName>ARL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>22F5CAB2-2787-1309-39E4-D909ED46AE2C</referredTableID>
+<keyObject>C9EF40DC-F990-769D-88F0-76D727F7CD58</keyObject>
+<referredKeyID>C9EF40DC-F990-769D-88F0-76D727F7CD58</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nameARL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

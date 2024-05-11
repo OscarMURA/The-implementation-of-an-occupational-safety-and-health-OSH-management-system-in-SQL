@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5D4992A-FB0C-EA12-9529-17722CB9476B" containerWithKeyObject="A9439660-E8B7-43E3-5B0D-FE02E88D1ADF" localFKIndex="47B12783-7B1F-A215-A4B0-A722CA1E1E4A" name="REGISTER_ALLERGIES_HEALTH_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F35877D9-833A-36A5-19D5-7A83E5F2A516" containerWithKeyObject="A9439660-E8B7-43E3-5B0D-FE02E88D1ADF" localFKIndex="FF2828A7-40EC-C688-7E85-FE54BA18A990" name="REGISTER_ALLERGIES_HEALTH_STATUS_REGISTER_FK">
 <createdBy>OscarMunoz</createdBy>
-<createdTime>2024-04-30 14:28:08 UTC</createdTime>
-<generatorID>043FDFE3-6413-C557-A78F-4203F5BE9713</generatorID>
+<createdTime>2024-05-11 18:20:49 UTC</createdTime>
+<generatorID>D32A4592-3D61-B21E-7775-275A743B9CE8</generatorID>
 <ownerDesignName>employee</ownerDesignName>
 <referredTableLongName>HEALTH_STATUS_REGISTER</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
@@ -10,7 +10,7 @@
 <keyObject>9E586BB1-F9AD-95AE-A4B4-AA034030FDEC</keyObject>
 <referredKeyID>9E586BB1-F9AD-95AE-A4B4-AA034030FDEC</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>code</refColNames>
+<refColNames>id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

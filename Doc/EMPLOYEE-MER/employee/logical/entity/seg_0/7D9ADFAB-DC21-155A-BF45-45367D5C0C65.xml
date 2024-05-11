@@ -85,6 +85,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nameEPS" id="ED04EF90-01B3-F046-7897-EDD53B1CF717">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:24:53 UTC</createdTime>
+<generatorID>768EAED2-F95B-CE37-85A3-7BA74117A7EE</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<referedAttribute>ECF01F5C-9DF6-DD8E-F712-3A427E7063A1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E6476947-0E8B-4F2A-7605-0B8543D8BECC" name="EMPLOYEE PK">
@@ -97,6 +109,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>70F24CCA-1C59-2B4A-B6C6-F59AB67716C4</attributeRef>
+<attributeRef>ED04EF90-01B3-F046-7897-EDD53B1CF717</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

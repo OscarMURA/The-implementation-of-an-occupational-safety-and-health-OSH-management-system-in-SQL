@@ -80,35 +80,12 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="EPS" id="E28879A2-7BED-CF25-538A-9CB48393DD35">
-<createdBy>OscarMunoz</createdBy>
-<createdTime>2024-04-30 14:28:08 UTC</createdTime>
-<generatorID>87699B0F-B429-1AAE-CD8A-07A58DAF8018</generatorID>
-<ownerDesignName>employee</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ARL" id="03E21F6C-4D74-CB51-A172-3E0F8D96227E">
-<createdBy>OscarMunoz</createdBy>
-<createdTime>2024-04-30 14:28:08 UTC</createdTime>
-<generatorID>461063BB-6F4A-45C4-AD4A-7DDE844A807B</generatorID>
-<ownerDesignName>employee</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="economicalSector" id="020B39F4-1BEF-946A-1C1E-634CB2B2F91B">
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>31869E5B-E6E5-4724-B0F9-3440F76768AA</generatorID>
 <ownerDesignName>employee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
@@ -117,6 +94,21 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="EC9BE69D-78A8-8D17-E4A4-6CC37929226C" referredColumn="242CA829-4E48-46BA-140F-B33D520A8F41"/>
+</associations>
+</Column>
+<Column name="ARL" id="6AEE9B19-EF35-30BB-FF3D-42BD53D4B2E2">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:08:11 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D86F31F-A012-A379-B72C-5AAC5077748C" referredColumn="F6AEBE8F-28D0-0762-4785-6D0CA842C285"/>
 </associations>
 </Column>
 </columns>
@@ -142,6 +134,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="020B39F4-1BEF-946A-1C1E-634CB2B2F91B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBC42E4B-A3EF-5FEF-A6C5-CA7033E87736" name="COMPANY_ARL_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:08:11 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AEE9B19-EF35-30BB-FF3D-42BD53D4B2E2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

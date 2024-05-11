@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="81F5F7CD-E3DB-1C46-54B6-72198EBB7255" containerWithKeyObject="D92B3AD7-C381-CBCD-5374-BAC529FFDA99" localFKIndex="6F7748C7-B8A8-4063-E5BF-3D585D3D4141" name="EMPLOYEE_EPS_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:19:59 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<referredTableLongName>EPS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B82A04CF-D440-220A-044E-F84CEB39308D</referredTableID>
+<keyObject>16704B21-ED3D-013C-44BD-9AA71BAB631D</keyObject>
+<referredKeyID>16704B21-ED3D-013C-44BD-9AA71BAB631D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nameEPS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -12,7 +12,10 @@
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-04-30 14:47:35 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -20,11 +23,14 @@
 <colAssociation fkAssociation="27CAEE03-32D7-92EC-EA63-F60D6A95C507" referredColumn="68E546F2-18CB-E7CC-CA32-638B630C1E52"/>
 </associations>
 </Column>
-<Column name="EMERGENCY_CONTACT_code" id="CA30D8B6-059D-7748-4A49-494A3916421F">
+<Column name="idEmergencyContact" id="CA30D8B6-059D-7748-4A49-494A3916421F">
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-04-30 14:47:42 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

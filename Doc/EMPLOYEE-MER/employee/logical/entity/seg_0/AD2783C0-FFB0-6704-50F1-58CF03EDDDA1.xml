@@ -77,6 +77,30 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nameARL" id="1B5F802D-BC28-8853-BBDF-399FACB257C3">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:23:45 UTC</createdTime>
+<generatorID>FAC9F08F-D9A4-D500-0E76-9FD0BCBD0167</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<referedAttribute>C0AA8B69-957A-B4D1-E3D5-0092EB1C4F07</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="typeModality" id="B5545CD2-BEFD-2189-6837-3A763F3843DD">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:27:31 UTC</createdTime>
+<generatorID>4BFA6967-2041-37F1-1741-7C6644A6CA3F</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<referedAttribute>E7A97385-4C67-356A-58A4-D5409B917C3A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="6BB27414-38C5-E21B-48E6-2E08364A075A" name="CAPACITATION PK">

@@ -82,6 +82,21 @@
 <colAssociation fkAssociation="1E764BBA-2E12-2A19-1E60-03AB574A35B5" referredColumn="FC28595A-CCF8-427D-EA4F-8969B2484D97"/>
 </associations>
 </Column>
+<Column name="typeModality" id="913EDC65-96D9-85B8-9043-6C321B6AE1FF">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:10:31 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69ABCF17-9F21-5D1D-71D3-0225A5852036" referredColumn="3D268DEC-4CAE-9CBE-871E-8A6F2A2222F2"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="5B2A1D00-18C8-B90F-9D37-47F272F44FE4" name="CAPACITATION_PK">
@@ -105,6 +120,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="04862334-C313-40BB-726E-F3B58675058B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D828A51-F1FB-F4E9-D541-CF3B4D825C39" name="CAPACITATION_CAPACITATION_MODALITY_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:10:31 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="913EDC65-96D9-85B8-9043-6C321B6AE1FF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="403C9A09-DE46-AE64-91A2-72723F9625BB" name="STATUS_TYPE">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:36:50 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="typeStatus" id="502A3A90-7419-228F-34BE-7DC6432B108C">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:37:22 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="731ECC29-1548-042C-6796-C8B3778F29C0" name="STATUS_TYPE_PK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:37:22 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="502A3A90-7419-228F-34BE-7DC6432B108C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E3ACB322-0E50-19D8-5574-79EBA5CF175F" containerWithKeyObject="60A1C6CE-AFAC-1C00-8C73-59F45447DED8" localFKIndex="E03EBEC9-2FFC-5A5D-C4DC-95B6281284C6" name="HEALTH_STATUS_REGISTER_STATUS_TYPE_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:37:33 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<referredTableLongName>STATUS_TYPE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>403C9A09-DE46-AE64-91A2-72723F9625BB</referredTableID>
+<keyObject>731ECC29-1548-042C-6796-C8B3778F29C0</keyObject>
+<referredKeyID>731ECC29-1548-042C-6796-C8B3778F29C0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>typeStatus</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

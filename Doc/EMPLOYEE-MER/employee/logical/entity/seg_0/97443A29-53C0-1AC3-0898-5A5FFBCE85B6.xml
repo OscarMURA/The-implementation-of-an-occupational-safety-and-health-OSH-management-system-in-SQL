@@ -67,6 +67,30 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nameEPS" id="1FBEABEC-0D0A-8C3D-69D2-5C7F2AC26EEE">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:24:53 UTC</createdTime>
+<generatorID>03CA38C7-C038-B7CD-443C-86B3AAC67AEF</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<referedAttribute>ED04EF90-01B3-F046-7897-EDD53B1CF717</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="typeStatus" id="15180D9E-3205-E3A5-7379-6143E4A4D31B">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:38:21 UTC</createdTime>
+<generatorID>6E1A18D0-A18F-65AB-A230-4B5B65F3E4C3</generatorID>
+<ownerDesignName>employee</ownerDesignName>
+<engineerTo>
+<item key="48324EE9-0D7D-213B-89F1-27D7DD69C6A9" value="true"/>
+</engineerTo>
+<referedAttribute>AA567418-018D-8633-70B1-BD8C2EE39964</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D32A4592-3D61-B21E-7775-275A743B9CE8" name="HEALTH_STATUS_REGISTER PK">

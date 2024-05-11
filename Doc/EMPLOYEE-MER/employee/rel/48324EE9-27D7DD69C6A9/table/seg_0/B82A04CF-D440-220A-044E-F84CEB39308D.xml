@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B82A04CF-D440-220A-044E-F84CEB39308D" name="EPS">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:05:09 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nameEPS" id="A2AB2CFE-3874-E2EE-331D-D58F935F438F">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:05:40 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16704B21-ED3D-013C-44BD-9AA71BAB631D" name="EPS_PK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:05:40 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2AB2CFE-3874-E2EE-331D-D58F935F438F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

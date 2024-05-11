@@ -8,22 +8,10 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="code" id="C097CA89-66C1-B246-4C4B-AA7E104DA836">
+<Column name="id" id="C097CA89-66C1-B246-4C4B-AA7E104DA836">
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>46240E96-3598-7524-B0E0-C018A2079404</generatorID>
-<ownerDesignName>employee</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="status" id="45017BDD-416E-B420-209E-7901372B9F38">
-<createdBy>OscarMunoz</createdBy>
-<createdTime>2024-04-30 14:28:08 UTC</createdTime>
-<generatorID>A12F8BBE-EB57-1DCE-D25F-5198E82B7F11</generatorID>
 <ownerDesignName>employee</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,6 +58,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="STATUS_TYPE_typeStatus" id="117E57C5-4410-6EC8-9DE2-4DC46B950F7B">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:37:33 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3ACB322-0E50-19D8-5574-79EBA5CF175F" referredColumn="502A3A90-7419-228F-34BE-7DC6432B108C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="9E586BB1-F9AD-95AE-A4B4-AA034030FDEC" name="HEALTH_STATUS_REGISTER_PK">
@@ -93,6 +96,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1C601471-F70C-A3E2-6EEE-E29835B9D411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E03EBEC9-2FFC-5A5D-C4DC-95B6281284C6" name="HEALTH_STATUS_REGISTER_STATUS_TYPE_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 19:37:33 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="117E57C5-4410-6EC8-9DE2-4DC46B950F7B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
