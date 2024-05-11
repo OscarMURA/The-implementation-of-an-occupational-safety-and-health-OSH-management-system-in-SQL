@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="NIT" id="FC28595A-CCF8-427D-EA4F-8969B2484D97">
+<Column name="NIT_ARL" id="FC28595A-CCF8-427D-EA4F-8969B2484D97">
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>10F5FF0C-6057-FFE3-DE00-26F78660DA8F</generatorID>
@@ -96,19 +96,19 @@
 <colAssociation fkAssociation="EC9BE69D-78A8-8D17-E4A4-6CC37929226C" referredColumn="242CA829-4E48-46BA-140F-B33D520A8F41"/>
 </associations>
 </Column>
-<Column name="ARL" id="6AEE9B19-EF35-30BB-FF3D-42BD53D4B2E2">
+<Column name="NIT_1" id="DF01304A-3091-2085-420F-C94D53839E28">
 <createdBy>OscarMunoz</createdBy>
-<createdTime>2024-05-11 19:08:11 UTC</createdTime>
+<createdTime>2024-05-11 20:35:46 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
+<dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1D86F31F-A012-A379-B72C-5AAC5077748C" referredColumn="F6AEBE8F-28D0-0762-4785-6D0CA842C285"/>
+<colAssociation fkAssociation="1D86F31F-A012-A379-B72C-5AAC5077748C" referredColumn="DAE9A162-8DE3-9DA4-6884-93C4A90555DD"/>
 </associations>
 </Column>
 </columns>
@@ -143,7 +143,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6AEE9B19-EF35-30BB-FF3D-42BD53D4B2E2"/>
+<colUsage columnID="DF01304A-3091-2085-420F-C94D53839E28"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

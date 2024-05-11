@@ -1,35 +1,35 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A1E70F1-ED10-10EB-BD84-89722DB302CD" name="CONTRACT_ACTIVATION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75AC4720-407C-F4DA-F1E4-442A0CCEEDCB" name="CONTRACT_STATUS">
 <createdBy>OscarMunoz</createdBy>
-<createdTime>2024-05-11 18:58:45 UTC</createdTime>
+<createdTime>2024-05-11 20:13:27 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
-<ordsAlias>table_21</ordsAlias>
+<ordsAlias>table_25</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="typeActivation" id="21F47371-3A65-EC07-1C4B-6478E7DFF60A">
+<Column name="typeStatus" id="775D48DC-26BD-DF04-3D70-221E923D0B50">
 <createdBy>OscarMunoz</createdBy>
-<createdTime>2024-05-11 19:00:05 UTC</createdTime>
+<createdTime>2024-05-11 20:13:52 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F90860CD-E283-6AE8-8EBB-32FE568168C1" name="CONTRACT_ACTIVATION_PK">
+<ind_PK_UK id="25E59D42-FAF5-F1C0-BCC3-B9E186CFB242" name="CONTRACT_STATUS_PK">
 <createdBy>OscarMunoz</createdBy>
-<createdTime>2024-05-11 19:00:05 UTC</createdTime>
+<createdTime>2024-05-11 20:13:52 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="21F47371-3A65-EC07-1C4B-6478E7DFF60A"/>
+<colUsage columnID="775D48DC-26BD-DF04-3D70-221E923D0B50"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="094A5584-0446-4979-A430-A0253C274537" containerWithKeyObject="D92B3AD7-C381-CBCD-5374-BAC529FFDA99" localFKIndex="F3F62FD4-F73E-8DA0-73F5-BC1804FD1C4F" name="EMPLOYEE_JOB_TITLE_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5E3ABFEE-8D63-3754-EE24-6DEFE4ADE8EA" containerWithKeyObject="A7A00122-367B-5837-65FD-27D98259872F" localFKIndex="B478C3B5-BF45-690F-18ED-A7F343E95467" name="CONTRACT_JOB_TITLE_FK">
 <createdBy>OscarMunoz</createdBy>
-<createdTime>2024-05-11 18:57:14 UTC</createdTime>
+<createdTime>2024-05-11 20:12:51 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
 <referredTableLongName>JOB_TITLE</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

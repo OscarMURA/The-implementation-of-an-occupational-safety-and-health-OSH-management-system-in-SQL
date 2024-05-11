@@ -91,31 +91,19 @@
 <ownDataTypeParameters>5,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nameJobTitle" id="0F97A643-B271-6557-19FD-122466847212">
+<Column name="EPS_NIT" id="ABC84497-4F5B-370D-E1FC-5A1AD979398D">
 <createdBy>OscarMunoz</createdBy>
-<createdTime>2024-05-11 18:57:14 UTC</createdTime>
-<ownerDesignName>employee</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="094A5584-0446-4979-A430-A0253C274537" referredColumn="63E5FBF5-B78D-35A9-4F87-E3D7959F4852"/>
-</associations>
-</Column>
-<Column name="EPS" id="C86F19C0-A170-1A5D-BD9D-88E0EF133635">
-<createdBy>OscarMunoz</createdBy>
-<createdTime>2024-05-11 19:19:59 UTC</createdTime>
+<createdTime>2024-05-11 20:36:27 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
+<dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="81F5F7CD-E3DB-1C46-54B6-72198EBB7255" referredColumn="A2AB2CFE-3874-E2EE-331D-D58F935F438F"/>
+<colAssociation fkAssociation="81F5F7CD-E3DB-1C46-54B6-72198EBB7255" referredColumn="61C4D3D6-2510-8324-6676-55844407AAE8"/>
 </associations>
 </Column>
 </columns>
@@ -132,16 +120,6 @@
 <colUsage columnID="68E546F2-18CB-E7CC-CA32-638B630C1E52"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F3F62FD4-F73E-8DA0-73F5-BC1804FD1C4F" name="EMPLOYEE_JOB_TITLE_FK">
-<createdBy>OscarMunoz</createdBy>
-<createdTime>2024-05-11 18:57:14 UTC</createdTime>
-<ownerDesignName>employee</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="0F97A643-B271-6557-19FD-122466847212"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="6F7748C7-B8A8-4063-E5BF-3D585D3D4141" name="EMPLOYEE_EPS_FK">
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-05-11 19:19:59 UTC</createdTime>
@@ -149,7 +127,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C86F19C0-A170-1A5D-BD9D-88E0EF133635"/>
+<colUsage columnID="ABC84497-4F5B-370D-E1FC-5A1AD979398D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

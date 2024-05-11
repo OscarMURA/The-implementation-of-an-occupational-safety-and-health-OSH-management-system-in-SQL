@@ -8,6 +8,17 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIT" id="61C4D3D6-2510-8324-6676-55844407AAE8">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 20:36:27 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="nameEPS" id="A2AB2CFE-3874-E2EE-331D-D58F935F438F">
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-05-11 19:05:40 UTC</createdTime>
@@ -29,7 +40,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A2AB2CFE-3874-E2EE-331D-D58F935F438F"/>
+<colUsage columnID="61C4D3D6-2510-8324-6676-55844407AAE8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

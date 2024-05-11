@@ -32,18 +32,6 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="modality" id="58C851BF-7399-B0C6-B55A-27C770FD6D4D">
-<createdBy>OscarMunoz</createdBy>
-<createdTime>2024-04-30 14:28:08 UTC</createdTime>
-<generatorID>446A32AC-7C29-09AC-B42B-A7DBA772BCA6</generatorID>
-<ownerDesignName>employee</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="date" id="07B98C2C-1A9D-E618-2968-F2154CA9761D">
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>

@@ -32,18 +32,6 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="charge" id="3633989F-0699-CB86-EB22-58FF4601C9DC">
-<createdBy>OscarMunoz</createdBy>
-<createdTime>2024-04-30 14:28:08 UTC</createdTime>
-<generatorID>B1208697-A49D-E8ED-9B2F-9B915E23B3BD</generatorID>
-<ownerDesignName>employee</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="salary" id="B6E75A9D-A9DC-906C-324C-B5F3B6D96713">
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
@@ -110,19 +98,31 @@
 <colAssociation fkAssociation="318BE4AC-B7AB-25E1-9F2D-AC6118ED5ACC" referredColumn="68E546F2-18CB-E7CC-CA32-638B630C1E52"/>
 </associations>
 </Column>
-<Column name="contractActivation" id="5340FDF1-1597-4F8D-9736-F3B414E542E3">
+<Column name="jobTitle" id="B5831BFD-6A4F-B6B0-4C64-46BAE635F8E5">
 <createdBy>OscarMunoz</createdBy>
-<createdTime>2024-05-11 19:00:25 UTC</createdTime>
+<createdTime>2024-05-11 20:12:51 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="26485A2C-DC32-094A-F5DA-D3A025E2CFA9" referredColumn="21F47371-3A65-EC07-1C4B-6478E7DFF60A"/>
+<colAssociation fkAssociation="5E3ABFEE-8D63-3754-EE24-6DEFE4ADE8EA" referredColumn="63E5FBF5-B78D-35A9-4F87-E3D7959F4852"/>
+</associations>
+</Column>
+<Column name="typeStatus" id="F8B5C32F-9FE0-219F-9B63-557FB219E879">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 20:14:04 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="597CC17C-88FF-F237-4D05-F2432BF1D954" referredColumn="775D48DC-26BD-DF04-3D70-221E923D0B50"/>
 </associations>
 </Column>
 </columns>
@@ -163,14 +163,24 @@
 <colUsage columnID="1287E462-B0C2-7537-66B8-FBA65BFD3DE8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="54DD860D-9948-C636-2ABE-03660214253C" name="CONTRACT_CONTRACT_ACTIVATION_FK">
+<ind_PK_UK id="B478C3B5-BF45-690F-18ED-A7F343E95467" name="CONTRACT_JOB_TITLE_FK">
 <createdBy>OscarMunoz</createdBy>
-<createdTime>2024-05-11 19:00:25 UTC</createdTime>
+<createdTime>2024-05-11 20:12:51 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5340FDF1-1597-4F8D-9736-F3B414E542E3"/>
+<colUsage columnID="B5831BFD-6A4F-B6B0-4C64-46BAE635F8E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5A599CF-7B26-EA68-ED51-CF8E10314BCE" name="CONTRACT_CONTRACT_STATUS_FK">
+<createdBy>OscarMunoz</createdBy>
+<createdTime>2024-05-11 20:14:04 UTC</createdTime>
+<ownerDesignName>employee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8B5C32F-9FE0-219F-9B63-557FB219E879"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

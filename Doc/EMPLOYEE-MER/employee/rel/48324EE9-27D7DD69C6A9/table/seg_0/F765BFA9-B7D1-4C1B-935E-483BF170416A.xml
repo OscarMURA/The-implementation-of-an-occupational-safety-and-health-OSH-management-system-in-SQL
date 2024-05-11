@@ -65,7 +65,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TYPE_ACCIDENT_name" id="E6B2879B-EEB5-3A76-B932-383517E875B5">
+<Column name="typeAccident" id="E6B2879B-EEB5-3A76-B932-383517E875B5">
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-04-30 14:28:08 UTC</createdTime>
 <generatorID>933B6CA1-A22A-0B6C-3997-FCFAC2C7364B</generatorID>

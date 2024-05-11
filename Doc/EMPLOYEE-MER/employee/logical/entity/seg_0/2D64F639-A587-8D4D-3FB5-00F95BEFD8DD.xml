@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D64F639-A587-8D4D-3FB5-00F95BEFD8DD" name="CONTRACT_ACTIVATION">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D64F639-A587-8D4D-3FB5-00F95BEFD8DD" name="CONTRACT_STATUS">
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-05-11 19:25:30 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="typeActivation" id="94A28AC7-BF15-AC8F-55A1-3460F8BD6248">
+<Attribute name="typeStatus" id="94A28AC7-BF15-AC8F-55A1-3460F8BD6248">
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-05-11 19:25:43 UTC</createdTime>
 <ownerDesignName>employee</ownerDesignName>

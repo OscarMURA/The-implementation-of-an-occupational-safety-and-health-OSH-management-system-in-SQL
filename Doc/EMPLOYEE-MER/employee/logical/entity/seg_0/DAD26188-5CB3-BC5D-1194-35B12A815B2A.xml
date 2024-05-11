@@ -124,7 +124,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="typeActivation" id="D331624A-906F-1398-F4D5-6A1AB5FD5CD4">
+<Attribute name="typeStatus" id="D331624A-906F-1398-F4D5-6A1AB5FD5CD4">
 <createdBy>OscarMunoz</createdBy>
 <createdTime>2024-05-11 19:26:14 UTC</createdTime>
 <generatorID>9A2522F1-31BD-4364-9E32-BC485FCCFDB9</generatorID>
