@@ -55,7 +55,7 @@ El diagrama modelo-entidad-relación del programa.
 
 
 [MER_EMPLOYEE-RELATIONAL.pdf](https://github.com/Bloque-SID/project2024-1-e06-sopas/blob/main/model/MER_EMPLOYEE-RELATIONAL.pdf "MER_EMPLOYEE-RELATIONAL.pdf")
-El diagrama MR (modelo-entidad) del programa.
+El diagrama MR (modelo relacional) del programa.
 
 <H3>src</H3>
 Todo el guión del proyecto.
